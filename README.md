@@ -1,11 +1,9 @@
-Take home test for Swirflabs
+## Take home test for Swirflabs
 
-Back-End should be running in localhost:8080
+### Back-End
+- Must be running in localhost:8080
+- API using route api/employee/get or api/employee/post
 
-Accessing API must be using route
-api/employee/{path}
-
-Credentials for DB can be found in Back-End folder
-BE/config/db_config.php
-
-Default MySql database should be running on locahost:3306/swirflabs_test
+### Database
+- Default config points to localhost:3306/swirflabs_test
+- Config file can be located in BE/config/db_config.php
