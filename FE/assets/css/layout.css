@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+
+    &.w-fit {
+        width: fit-content !important;
+    }
+
+    &.h-full {
+        height: 100% !important;
+    }
+
+    &.space-x-2 > * {
+        margin-right: 0.5rem !important;
+    }
+
+    &.space-x-2 > *:last-child  {
+        margin-right: 0rem !important;
+    }
+
+    &.space-y-2 > * {
+        margin-bottom: 0.5rem !important;
+    }
+
+    &.space-y-2 > *:last-child  {
+        margin-bottom: 0rem !important;
+    }
+
+    &.vertical {
+        flex-direction: column !important;
+    }
+}
+
+.header, .footer {
+    display: flex;
+    flex-shrink: 0;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    height: fit-content;
+
+    overflow-x: auto;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
+
+    &.horizontal {
+        flex-direction: row !important;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.p-1 {
+    padding: 0.25rem !important;
+}
+
+.pe-1 {
+    padding-right: 0.25rem !important;
+}
+
+.ps-1 {
+    padding-left: 0.25rem !important;
+}
+
+.pb-1 {
+    padding-bottom: 0.25rem !important;
+}
+
+.pt-1 {
+    padding-top: 0.25rem !important;
+}
+
+.m-1 {
+    margin: 0.25rem !important;
+}
+
+.me-1 {
+    margin-right: 0.25rem !important;
+}
+
+.ms-1 {
+    margin-left: 0.25rem !important;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem !important;
+}
+
+.mt-1 {
+    margin-top: 0.25rem !important;
+}
+
+.m-auto {
+    margin: auto !important;
+}
+
+.me-auto {
+    margin-right: auto !important;
+}
+
+.ms-auto {
+    margin-left: auto !important;
+}
+
+.mb-auto {
+    margin-bottom: auto !important;
+}
+
+.mt-auto {
+    margin-top: auto !important;
+}
