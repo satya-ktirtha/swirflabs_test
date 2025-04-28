@@ -6,4 +6,4 @@
 
 ### Database
 - Default config points to localhost:3306/swirflabs_test
-- Config file can be located in BE/config/db_config.php
+- Config file can be located in [here](BE/config/db_config.php)
