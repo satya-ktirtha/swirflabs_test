@@ -17,7 +17,3 @@ function controller($action) {
         exit;
     }
 }
-
-// new function
-function foobar() {
-}
